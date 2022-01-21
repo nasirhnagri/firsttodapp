@@ -1,0 +1,84 @@
+#myTodo {
+  width: 30%;
+  height: 420px;
+  background-color: rgb(6, 168, 106);
+  border: 2px solid rgb(211, 211, 198);
+  margin: 8% 0% 0% 25%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.myTodo {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+#input {
+  padding: 1%;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: rgb(143, 184, 224);
+}
+
+.btn {
+  border: 0;
+  line-height: 2;
+  padding: 0 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+}
+.btn:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+.btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+  inset: X 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn1 {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 40px;
+  margin-left: 10px;
+  font-size: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 100px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(161, 112, 112);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.btn1:hover {
+  background-color: rgb(0, 132, 255);
+}
+
+.btn1:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.todoList {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.myLi {
+  display: flex;
+  font-size: 30px;
+  color: #fff;
+  width: auto;
+}
+.myDiv {
+  color: red;
+  position: fixed;
+  left: 60%;
+}
+.myBTN {
+  width: 25px;
+}
